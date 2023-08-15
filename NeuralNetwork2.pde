@@ -1,5 +1,7 @@
+float a = random(-10,10);
+float b = random(-400,400);
 float makeLine(float x){
-  return ((3*x+200));
+  return ((a*x+b));
 }
 Perceptron p;
 
